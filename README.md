@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/x-xnocx/python">
-    <img src="https://github.com/x-xnocx/python/blob/main/img/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/x-xnocx/python/blob/main/img/logo.png" alt="Logo" width="80" height="100">
   </a>
 
 <h3 align="center">python study</h3>
