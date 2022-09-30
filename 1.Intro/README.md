@@ -16,6 +16,8 @@
 - 한 줄씩 실행을 시킬 수 있어서 **프로그램 수정이 간편**합니다.
 - 단, 한 줄씩 명령을 내리다보니 **명령 자체의 처리 속도**는 느립니다.
 
+<img src="https://github.com/x-xnocx/python/blob/main/1.Intro/img/jupyter.png">
+
 ## 🔥 출처
 
 - [파이썬이란?](https://wikidocs.net/4307)
