@@ -28,9 +28,9 @@ _Jupyter Notebook으로 한 줄만 실행하는 모습_
 
 ## 👇 설치 그리고 실습 준비
 
-[windows python 설치](https://wikidocs.net/8)
-[실습 준비](https://wikidocs.net/9)
-[IDLE 사용하기](https://wikidocs.net/17684)
+- [windows python 설치](https://wikidocs.net/8)
+- [실습 준비](https://wikidocs.net/9)
+- [IDLE 사용하기](https://wikidocs.net/17684)
 
 ## 🔥 출처
 
