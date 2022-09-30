@@ -26,6 +26,11 @@
   - 파이썬만의 장점
   - 파이썬 그리고 에디터
 
+- I/O
+
+  - print
+  - Input
+
 - DataType
 
   - 숫자 (str, byte, hex, ...)
@@ -35,17 +40,34 @@
   - 집합
   - 불
 
-- 3. I/O
-- 4. Statement
-- 5. Module
+- Statement
+
+  - if
+  - while
+  - for
+
+- Function&Class
+
+  - function
+  - class
+
+- Module
 
   - Module이란
   - 많이 쓰이는 module 소개 및 사용
   - request 모듈을 사용한 blind sql injection
   - flask 모듈을 사용한 웹 호스팅
 
-- 6. Anaconda
-- 7. Snippet
+- Anaconda
+
+  - Anaconda란
+  - Anaconda 설치 및 사용법
+
+- Snippet
+
+  - vscode + python
+  - snippet이란
+  - snippet 사용해보기
 
 ## ☝️ 방법
 
