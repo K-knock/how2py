@@ -20,13 +20,13 @@
 
 > 각 챕터(폴더)와 README 파일로 구성되어 있습니다.
 
-- 1. Intro
+- Intro
 
   - 파이썬의 역사
   - 파이썬만의 장점
   - 파이썬 그리고 에디터
 
-- 2. DataType
+- DataType
 
   - 숫자 (str, byte, hex, ...)
   - 문자열
