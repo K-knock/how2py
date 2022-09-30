@@ -18,6 +18,8 @@
 
 <img src="https://github.com/x-xnocx/python/blob/main/1.Intro/img/jupyter.png">
 
+_Jupyter Notebook으로 한 줄만 실행하는 모습_
+
 ## 🔥 출처
 
 - [파이썬이란?](https://wikidocs.net/4307)
