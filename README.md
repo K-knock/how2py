@@ -14,8 +14,6 @@
 
 > python 기초부터 응용까지
 
-<img src="https://github.com/kwon99/siegweb/blob/main/img/ctfd1.png" width="1000">
-
 <br /><br />
 
 ## ⚙️ 구성
