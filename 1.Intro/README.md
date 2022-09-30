@@ -26,6 +26,12 @@ _Jupyter Notebook으로 한 줄만 실행하는 모습_
 - 파이썬은 간결합니다.
 - 파이썬은 개발 속도가 빠릅니다.
 
+## 👇 설치 그리고 실습 준비
+
+[windows python 설치](https://wikidocs.net/8)
+[실습 준비](https://wikidocs.net/9)
+[IDLE 사용하기](https://wikidocs.net/17684)
+
 ## 🔥 출처
 
 - [파이썬이란?](https://wikidocs.net/4307)
