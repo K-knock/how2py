@@ -85,6 +85,105 @@ print("World!")
 > Hello World!
 ```
 
+**String formatting**
+
+python도 C처럼 문자열과 변수 값을 적절히 섞어서 출력할 수 있습니다. <br >
+속도 그리고 가독성면에서 **f-string**이 젤 좋습니다:)
+
+<br >
+(1) , (comma)
+
+```python
+a = "Hello"
+print(a, "World!")
+
+> Hello World!
+```
+
+<br >
+
+(2) % operator
+
+```python
+a = "World!"
+b = 1234
+
+# C의 printf와 익숙한 방식
+print("Hello %s" % a)
+
+> Hello World!
+
+# 타입 지정 필수, integer는 i로
+print("Hello %i" % b)
+
+> Hello 1234
+
+# 만약 타입이 틀렸다면? 에러 발생
+print("Hello %i" % a)
+
+> TypeError: %i format: a number is required, not str
+
+# 여러 개 한다면?
+print("Hello %s %i" % (a,b))
+```
+
+<br >
+
+(3) str.format (python3)
+
+```python
+a = "Hello"
+b = "World!"
+
+# {} 사용
+print("{} {}".format(a, b))
+
+> Hello World!
+
+# {이름} 사용
+print("{name1} {name2}".format(name1=a, name2=b))
+
+> Hello World!
+
+# {번호} 사용
+print("{1} {0}".format(b, a))
+
+> World! Hello
+```
+
+<br >
+
+(4) f-string
+
+```python
+a = "World!"
+
+# 앞에 f를 붙여주면 {} 안의 값을 변수로 인식합니다.
+print(f"Hello {a}")
+
+> Hello World!
+
+# '{' 를 출력
+print(f"{{")
+
+> {
+```
+
+<br >
+
+위 내용 중 첫 번쨰를 제외한 모든 방법은 print 밖에서도 사용할 수 있습니다.
+
+```python
+# print 밖에서, 즉 변수 할당 같을 때도 사용 가능하다!
+# 사실 밖에서 되는 것이 원래 맞고, print 안에서는 이 연산을 하는 것
+a = "Hello %s" % "World!"
+print(a)
+
+> Hello World!
+```
+
+<br >
+
 ## 📖 입력 함수
 
 > python의 입력 함수를 알아보자
