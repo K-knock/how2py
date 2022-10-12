@@ -85,6 +85,8 @@ print("World!")
 > Hello World!
 ```
 
+<br >
+
 **String formatting**
 
 python도 C처럼 문자열과 변수 값을 적절히 섞어서 출력할 수 있습니다. <br >
