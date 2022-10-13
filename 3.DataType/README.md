@@ -482,7 +482,7 @@ _Q) `key` 이름이 중복되면 어떻게 될까요?_
 
 아래처럼 오류가 발생하게 됩니다.
 
-`key`는 중복이 안된다는 것!
+`key`는 **중복이 안된다**는 것!
 
 ```python
 student = dict(number=202111445, number=222222222)
@@ -515,6 +515,103 @@ print(len(student))
 
 > 파이썬의 집합을 알아보자
 
+### Set
+
+수학의 집합과 비슷하며, 순서가 없고 집합 안에서는 중복 값이 없습니다.
+
+`set`은 `{}` 를 사용해 생성합니다.
+
+```python
+# 단, {} 자체는 dict과 겹치므로 주의해서 사용해야 합니다.
+# dict는 키:값인 반면 set은 값만 존재하는 차이점이 있습니다.
+number = {1, 2, 3, 4, 5}
+
+print(type(number), number)
+
+> <class 'set'> {1, 2, 3, 4, 5}
+```
+
+```python
+# 그냥 중괄호만 선언할 경우 dict으로 인식합니다.
+number = {}
+
+print(type(number))
+
+> <class 'dict'>
+```
+
+혹은 `set()` 함수를 사용해 생성할 수도 있습니다.
+
+```python
+number = set([1, 2, 3, 4, 5])
+
+print(type(number), number)
+
+> <class 'set'> {1, 2, 3, 4, 5}
+```
+
+<br >
+
+**중복된 값을 제거한다는 성질**을 이용해 값을 정리하기도 합니다.
+
+```python
+number = [1, 2, 3, 3, 5, 5, 6]
+
+print(set(number))
+
+> {1, 2, 3, 5, 6}
+```
+
+<br >
+
+`add()` 메소드로 값을 추가할 수 있습니다.
+
+```python
+number = {1, 2, 3, 4}
+number.add(5)
+
+print(number)
+
+> {1, 2, 3, 4, 5}
+```
+
+<br >
+
+`remove()` 메소드로 값을 제거할 수 있습니다.
+
+만약 해당하는 값이 없다면 오류를 출력합니다.
+
+```python
+number = {1, 2, 3, 4, 5}
+number.remove(5)
+
+print(number)
+
+> {1, 2, 3, 4}
+```
+
+```python
+number = {1, 2, 3, 4, 5}
+number.remove(6)
+
+> KeyError: 6
+```
+
+<br >
+
+`discard()` 메소드를 통해서도 값을 제거할 수 있습니다.
+
+이 메소드의 경우 해당하는 값이 없어도 오류가 나지 않습니다.
+
+```python
+number = {1, 2, 3, 4, 5}
+number.discard(6)
+
+print(number)
+
+> {1, 2, 3, 4, 5}
+```
+
 ## Boolean Type
 
 > 파이썬의 불 자료형을 알아보자
@@ -526,6 +623,10 @@ print(len(student))
 **`bytes`**
 
 1바이트 단위의 값을 연속적으로 저장하는 자료형
+
+```
+
+```
 
 ```
 
