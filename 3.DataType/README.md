@@ -16,6 +16,13 @@ print(type(1), type("Hello"))
 > <class 'int'> <class 'str'>
 ```
 
+```python
+# 서로 다른 타입을 + 할 경우 오류가 납니다.
+print(1+"Hello")
+
+> TypeError: unsupported operand type(s) for +: 'int' and 'str'
+```
+
 ## Numeric Type
 
 > 파이썬의 숫자 타입을 알아보자
