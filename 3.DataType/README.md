@@ -394,7 +394,7 @@ print(len(fruit))
 
 ## Mapping Type
 
-> 파이썬의 딕셔너리 그리고 해시 테이블을 알아보자
+> 파이썬의 딕셔너리를 알아보자
 
 ### Dictionary
 
