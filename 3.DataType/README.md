@@ -128,9 +128,11 @@ World!")
 > SyntaxError: EOL while scanning string literal
 ```
 
+<br >
+
 방법은 2가지가 있습니다.
 
-(1) line feed '\n'
+(1) line feed `\n`
 
 ```python
 print("Hello\nWorld!")
@@ -139,7 +141,7 @@ print("Hello\nWorld!")
 World!
 ```
 
-(2) multiline Strings """ """
+(2) multiline Strings `""" """`
 
 ```python
 print("""Hello
@@ -160,13 +162,15 @@ print("Hello World!")
 > Hello World!
 ```
 
-## Sequence Types
+## Sequence Type
 
 > 파이썬의 리스트, 튜플의 정의와 차이점을 알아보자
 
 **`List`**
 
-C언어의 배열과 비슷합니다. `[]`로 감싸거나 `list()` 함수를 사용해서 만들 수 있습니다.
+C언어의 배열과 비슷합니다. `list`는 python의 핵심 기능 중 하나라고 해도 과언이 아닐만큼 많이 사용되기 때문에 꼭 숙지하시는 것을 추천드립니다.
+
+`[]`로 감싸거나 `list()` 함수를 사용해서 만들 수 있습니다.
 
 ```python
 fruit = ["apple", "banana", "cherry"]
@@ -210,7 +214,7 @@ print(type(student[0]), type(student[1]))
 
 <br >
 
-`len()`함수로 list의 길이를 구할 수 있습니다.
+`len()` 함수로 list의 길이를 구할 수 있습니다.
 
 ```python
 fruit = ["apple", "banana", "cherry"]
@@ -219,6 +223,62 @@ print(len(fruit))
 
 > 3
 ```
+
+<br >
+
+`append()` 함수로 list에 값을 추가할 수 있습니다.
+
+```python
+fruit = ["apple", "banana", "cherry"]
+fruit.append("melon")
+
+print(fruit)
+
+> ['apple', 'banana', 'cherry', 'melon']
+```
+
+<br >
+
+`remove()` 함수로 list 안의 값을 제거할 수 있습니다.
+
+```python
+fruit = ["apple", "banana", "cherry"]
+fruit.remove("banana")
+
+print(fruit)
+
+> ['apple', 'cherry']
+```
+
+<br >
+
+`sort()` 함수로 list 안의 내용을 정렬할 수 있습니다.
+
+**syntax**
+
+```python
+list.sort(key=..., reverse=...)
+```
+
+**parameter**
+
+| Parameter | Description                                                    | Default |
+| --------- | -------------------------------------------------------------- | ------- |
+| _key_     | _정렬을 목적으로 하는 함수를 값으로 넣으며, key 기준으로 정렬_ |         |
+| _reverse_ | _False일 경우 오름차순 정렬_                                   | _False_ |
+
+<br >
+
+```python
+number = [9, 123, 32, 15, 36, 42]
+number.sort()
+
+print(number)
+
+> [9, 15, 32, 36, 42, 123]
+```
+
+**`Tuple`**
 
 ## 딕셔너리
 
@@ -231,6 +291,10 @@ print(len(fruit))
 ## 불
 
 > 파이썬의 불 자료형을 알아보자
+
+```
+
+```
 
 ```
 
