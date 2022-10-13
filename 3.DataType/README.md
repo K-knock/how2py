@@ -396,6 +396,67 @@ print(len(fruit))
 
 > 파이썬의 딕셔너리 그리고 해시 테이블을 알아보자
 
+### Dictionary
+
+파이썬의 `dictionary`는 `키:값` 형식으로 데이터를 저장합니다. `list`, `tuple`처럼 자료형을 섞어서 사용할 수 있습니다.
+
+`{}` 안에 `키:값` 형식으로 저장하며, 각 값은 `,`로 구분합니다.
+
+```python
+student = {"number":202111445, "name":"Younghun Kwon"}
+
+print(type(student), student)
+
+> <class 'dict'> {'number': 202111445, 'name': 'Younghun Kwon'}
+```
+
+<br >
+
+혹은 `dict(key=vaule)` 함수를 사용해서 만들 수 있습니다.
+
+```python
+student = dict(number=202111445, name="Younghun Kwon")
+
+print(type(student), student)
+
+> <class 'dict'> {'number': 202111445, 'name': 'Younghun Kwon'}
+```
+
+이 때는 key 값을 따옴표로 묶지 않아야 합니다. (자동으로 문자열로 변경됩니다.)
+
+```python
+# key를 따옴표로 묶을 경우 오류가 발생합니다.
+student = dict("number"=202111445, "name"="Younghun Kwon")
+
+> SyntaxError: expression cannot contain assignment
+```
+
+<br >
+
+`dictionary` 내부 값을 가져오기 위해선 `dict_name[key]`를 사용합니다.
+
+```python
+student = dict("number"=202111445, "name"="Younghun Kwon")
+
+print(student["number"])
+
+> 202111445
+```
+
+<br >
+
+Q) key 이름이 중복되면 어떻게 될까요?
+
+```python
+student = dict(number=202111445, number=222222222)
+
+> keyword argument repeated: number
+```
+
+위처럼 오류가 발생하게 됩니다.
+
+dictionary key는 중복이 안된다는 것!
+
 ## Set Type
 
 > 파이썬의 집합을 알아보자
@@ -411,3 +472,7 @@ print(len(fruit))
 **`bytes`**
 
 1바이트 단위의 값을 연속적으로 저장하는 자료형
+
+```
+
+```
