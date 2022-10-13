@@ -37,7 +37,10 @@ Q) 파이썬의 정수형 범위는 얼마일까요?
 
 정답은 **무제한**입니다.
 
+<br >
 그 이유는 아래 링크 참조!
+
+<br >
 
 [python의 Int 자료형은 어떻게 범위가 무제한일까?](https://velog.io/@toezilla/1D1Q-001.-Python%EC%9D%98-int-%EC%9E%90%EB%A3%8C%ED%98%95%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%B2%94%EC%9C%84%EA%B0%80-%EB%AC%B4%EC%A0%9C%ED%95%9C%EC%9D%BC%EA%B9%8C)
 
@@ -98,9 +101,64 @@ print(type(int(1.4)), int(1.4))
 > <class 'int'> 1
 ```
 
-## 문자열
+## Text Type
 
 > 파이썬의 문자열 타입을 알아보자
+
+**`str`**
+
+기본적인 문자열 타입으로, 작은 따옴표 혹은 큰 따옴표로 묶어줍니다.
+
+```python
+print(type("Hello"), "Hello")
+
+> <class 'str'> Hello
+```
+
+Q) 여러 줄을 입력하려면 어떻게 해야 할까요?
+
+파이썬은 **들여쓰기**로 코드의 흐름을 판별한다는 것 기억하시나요?
+
+따라서 아래 코드는 오류를 출력합니다.
+
+```python
+print("Hello
+World!")
+
+> SyntaxError: EOL while scanning string literal
+```
+
+방법은 2가지가 있습니다.
+
+(1) line feed '\n'
+
+```python
+print("Hello\nWorld!")
+
+> Hello
+World!
+```
+
+(2) multiline Strings """ """
+
+```python
+print("""Hello
+World!""")
+
+> Hello
+World!
+```
+
+두 번쨰 방식은 주석으로도 사용합니다. (변수에 할당하지 않으면 그냥 코드에 있는 문자열 그 자체이기 때문이죠)
+
+```python
+"""
+print("이건 주석이랍니다!")
+"""
+print("Hello World!")
+
+> Hello World!
+```
 
 ## 리스트, 튜플
 
@@ -117,3 +175,11 @@ print(type(int(1.4)), int(1.4))
 ## 불
 
 > 파이썬의 불 자료형을 알아보자
+
+```
+
+```
+
+```
+
+```
