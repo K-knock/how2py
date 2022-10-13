@@ -50,8 +50,6 @@ _Q) 파이썬의 정수형 범위는 얼마일까요?_
 
 그렇기 때문에 `integer overflow`도 나지 않고, 정수형도 `int` 하나만 존재한답니다. (python3 기준)
 
-<br >
-
 ### Float
 
 기본적인 실수형입니다.
@@ -72,8 +70,6 @@ print(type(1e5), 1e5)
 > <class 'float'> 100000.0
 ```
 
-<br >
-
 ### Complex
 
 복소수입니다.
@@ -85,8 +81,6 @@ print(type(1+5j))
 
 > <class 'complex'>
 ```
-
-<br >
 
 ### Type Conversion
 
