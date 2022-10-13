@@ -203,7 +203,7 @@ print(fruit[1])
 
 <br >
 
-list 안에는 **여러** `datatype`이 **혼합**해서 들어갈 수 있습니다.
+`list` 안에는 **여러** `datatype`이 **혼합**해서 들어갈 수 있습니다.
 
 ```python
 student = [202111445, "Younghun Kwon", True]
@@ -215,7 +215,7 @@ print(type(student[0]), type(student[1]))
 
 <br >
 
-`len()` 함수로 list의 길이를 구할 수 있습니다.
+`len()` 함수로 `list`의 길이를 구할 수 있습니다.
 
 ```python
 fruit = ["apple", "banana", "cherry"]
@@ -227,7 +227,7 @@ print(len(fruit))
 
 <br >
 
-`append()` 메서드로 list에 값을 추가할 수 있습니다.
+`append()` 메서드로 `list`에 값을 추가할 수 있습니다.
 
 ```python
 fruit = ["apple", "banana", "cherry"]
@@ -240,7 +240,7 @@ print(fruit)
 
 <br >
 
-`remove()` 메서드로 list 안의 값을 제거할 수 있습니다.
+`remove()` 메서드로 `list` 안의 값을 제거할 수 있습니다.
 
 ```python
 fruit = ["apple", "banana", "cherry"]
@@ -253,7 +253,7 @@ print(fruit)
 
 <br >
 
-`sort()` 메소드로 list 안의 내용을 정렬할 수 있습니다.
+`sort()` 메소드로 `list` 안의 내용을 정렬할 수 있습니다.
 
 _syntax_
 
@@ -290,7 +290,7 @@ print(number)
 
 <br>
 
-`copy()` 메서드로 list를 복사할 수 있습니다.
+`copy()` 메서드로 `list`를 복사할 수 있습니다.
 
 ```python
 number = [1, 2, 3]
@@ -305,7 +305,7 @@ _Q) 그냥 대입 연산자(=)를 사용하면 안되나요?_
 
 <br >
 
-대입 연산자와 copy() 메서드는 작동 방식이 다릅니다.
+대입 연산자와 `copy()` 메서드는 작동 방식이 다릅니다.
 
 아래 코드를 참고해보세요.
 
@@ -332,13 +332,13 @@ print(numberEqual, numberCopy)
 
 대입 연산자는 **원본 list를 변경하면 같이 변경**되는 반면
 
-copy() 메서드는 **바뀌지 않습니다**.
+`copy()` 메서드는 **바뀌지 않습니다**.
 
 <br >
 
 **`Tuple`**
 
-`list`와 매우 유사하지만, `tuple` 내의 값을 수정 불가능하다는 특징이 있습니다.
+`list`와 매우 유사하지만, `tuple` 내의 값은 **수정 불가능**하다는 특징이 있습니다.
 
 `()`로 감싸거나 `tuple()` 함수를 사용해서 만들 수 있습니다.
 
