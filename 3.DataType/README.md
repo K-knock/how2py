@@ -501,7 +501,7 @@ print(student["number"])
 
 <br >
 
-`len()` 함수를 사용해 `dictionary`의 길이를 구할 수 있습니다.
+`len()` 함수를 사용해 `dictionary`의 `key` 개수를 구할 수 있습니다.
 
 ```python
 student = dict("number"=202111445, "name"="Younghun Kwon")
@@ -631,11 +631,3 @@ print(number)
 **`bytes`**
 
 1바이트 단위의 값을 연속적으로 저장하는 자료형
-
-```
-
-```
-
-```
-
-```
