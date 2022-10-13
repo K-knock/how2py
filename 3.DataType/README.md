@@ -340,8 +340,6 @@ print(numberEqual, numberCopy)
 
 `copy()` 메서드는 **바뀌지 않습니다**.
 
-<br >
-
 ### Tuple
 
 `list`와 매우 유사하지만, `tuple` 내의 값은 **수정 불가능**하다는 특징이 있습니다.
