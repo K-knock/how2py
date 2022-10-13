@@ -39,9 +39,9 @@ Q) 파이썬의 정수형 범위는 얼마일까요?
 
 그 이유는 아래 링크 참조!
 
-https://velog.io/@toezilla/1D1Q-001.-Python%EC%9D%98-int-%EC%9E%90%EB%A3%8C%ED%98%95%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%B2%94%EC%9C%84%EA%B0%80-%EB%AC%B4%EC%A0%9C%ED%95%9C%EC%9D%BC%EA%B9%8C
+[python의 Int 자료형은 어떻게 범위가 무제한일까?](https://velog.io/@toezilla/1D1Q-001.-Python%EC%9D%98-int-%EC%9E%90%EB%A3%8C%ED%98%95%EC%9D%80-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%B2%94%EC%9C%84%EA%B0%80-%EB%AC%B4%EC%A0%9C%ED%95%9C%EC%9D%BC%EA%B9%8C)
 
-그렇기 때문에 integer overflow도 나지 않고, 정수형도 int 하나만 존재한답니다. (python3 기준)
+그렇기 때문에 `integer overflow`도 나지 않고, 정수형도 `int` 하나만 존재한답니다. (python3 기준)
 
 <br >
 
