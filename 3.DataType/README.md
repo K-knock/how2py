@@ -96,6 +96,7 @@ print(type(float(1)), float(1))
 
 > <class 'float'> 1.0
 
+# Float to Int
 print(type(int(1.4)), int(1.4))
 
 > <class 'int'> 1
