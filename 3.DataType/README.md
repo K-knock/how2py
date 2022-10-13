@@ -110,7 +110,7 @@ print(type(int(1.4)), int(1.4))
 기본적인 문자열 타입으로, 작은 따옴표 혹은 큰 따옴표로 묶어줍니다.
 
 ```python
-print(type("Hello"), "Hello")
+print(type("Hello"), 'Hello')
 
 > <class 'str'> Hello
 ```
@@ -149,7 +149,7 @@ World!""")
 World!
 ```
 
-두 번쨰 방식은 주석으로도 사용합니다. (변수에 할당하지 않으면 그냥 코드에 있는 문자열 그 자체이기 때문이죠)
+두 번째 방식은 주석으로도 사용합니다. (변수에 할당하지 않으면 그냥 코드에 있는 문자열 그 자체이기 때문이죠)
 
 ```python
 """
@@ -160,9 +160,59 @@ print("Hello World!")
 > Hello World!
 ```
 
-## 리스트, 튜플
+## Sequence Types
 
 > 파이썬의 리스트, 튜플의 정의와 차이점을 알아보자
+
+**List**
+
+```python
+fruit = ["apple", "banana", "cherry"]
+
+print(type(fruit), fruit)
+
+> <class 'list'> ['apple', 'banana', 'cherry']
+```
+
+혹은 `list()` 함수를 사용해서 만들 수 있습니다.
+
+```python
+fruit = list(("apple", "banana", "cherry"))
+
+print(type(fruit), fruit)
+
+> <class 'list'> ['apple', 'banana', 'cherry']
+```
+
+list 내부에 값을 가져오기 위해선 `list_name[index]`를 사용합니다. (index는 0부터 입니다!)
+
+```python
+fruit = ["apple", "banana", "cherry"]
+
+print(fruit[1])
+
+> banana
+```
+
+list 안에는 **여러** `datatype`이 **혼합**해서 들어갈 수 있습니다.
+
+```python
+student = [202111445, "Younghun Kwon", True]
+
+print(type(student[0]), type(student[1]))
+
+> <class 'int'> <class 'str'>
+```
+
+`len()`함수로 list의 길이를 구할 수 있습니다.
+
+```python
+fruit = ["apple", "banana", "cherry"]
+
+print(len(fruit))
+
+> 3
+```
 
 ## 딕셔너리
 
