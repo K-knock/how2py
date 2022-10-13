@@ -69,6 +69,12 @@ how2 시리즈의 첫 번째, python!
   - snippet이란
   - snippet 사용해보기
 
+추가할 내용
+
+- 문자열 연산
+- list comprehension
+- 같은 기능을 하는 메소드와 내장함수 (e.g. sorted vs sort())
+
 ## ☝️ 방법
 
 > 효울적으로 공부하는 법
