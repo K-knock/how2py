@@ -52,7 +52,7 @@ _Q) 파이썬의 정수형 범위는 얼마일까요?_
 
 <br >
 
-**`Float`**
+### Float
 
 기본적인 실수형입니다.
 
@@ -74,7 +74,7 @@ print(type(1e5), 1e5)
 
 <br >
 
-**`Complex`**
+### Complex
 
 복소수입니다.
 
@@ -88,7 +88,7 @@ print(type(1+5j))
 
 <br >
 
-**`Type Conversion`**
+### Type Conversion
 
 파이썬은 한 `type`에서 다른 `type`으로 변환할 수 있습니다.
 
@@ -110,7 +110,7 @@ print(type(int(1.4)), int(1.4))
 
 > 파이썬의 문자열 타입을 알아보자
 
-**`str`**
+### Str
 
 기본적인 문자열 타입으로, 작은 따옴표 혹은 큰 따옴표로 묶어줍니다.
 
@@ -173,7 +173,7 @@ print("Hello World!")
 
 > 파이썬의 리스트, 튜플의 정의와 차이점을 알아보자
 
-**`List`**
+### List
 
 C언어의 배열과 비슷합니다. **`list`는 python의 핵심 기능 중 하나라고 해도 과언이 아닐만큼 많이 사용**되기 때문에 꼭 숙지하시는 것을 추천드립니다.
 
@@ -342,7 +342,7 @@ print(numberEqual, numberCopy)
 
 <br >
 
-**`Tuple`**
+### Tuple
 
 `list`와 매우 유사하지만, `tuple` 내의 값은 **수정 불가능**하다는 특징이 있습니다.
 
