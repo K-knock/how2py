@@ -164,7 +164,9 @@ print("Hello World!")
 
 > 파이썬의 리스트, 튜플의 정의와 차이점을 알아보자
 
-**List**
+**`List`**
+
+C언어의 배열과 비슷합니다. `[]`로 감싸거나 `list()` 함수를 사용해서 만들 수 있습니다.
 
 ```python
 fruit = ["apple", "banana", "cherry"]
@@ -174,8 +176,6 @@ print(type(fruit), fruit)
 > <class 'list'> ['apple', 'banana', 'cherry']
 ```
 
-혹은 `list()` 함수를 사용해서 만들 수 있습니다.
-
 ```python
 fruit = list(("apple", "banana", "cherry"))
 
@@ -183,6 +183,8 @@ print(type(fruit), fruit)
 
 > <class 'list'> ['apple', 'banana', 'cherry']
 ```
+
+<br >
 
 list 내부에 값을 가져오기 위해선 `list_name[index]`를 사용합니다. (index는 0부터 입니다!)
 
@@ -194,6 +196,8 @@ print(fruit[1])
 > banana
 ```
 
+<br >
+
 list 안에는 **여러** `datatype`이 **혼합**해서 들어갈 수 있습니다.
 
 ```python
@@ -203,6 +207,8 @@ print(type(student[0]), type(student[1]))
 
 > <class 'int'> <class 'str'>
 ```
+
+<br >
 
 `len()`함수로 list의 길이를 구할 수 있습니다.
 
