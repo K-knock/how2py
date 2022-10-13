@@ -7,7 +7,7 @@
 **Syntax**
 
 ```python
-print(object(s), sep=separator, end=end, file=file, flush=flush)
+print(object(s), sep=..., end=..., file=..., flush=...)
 ```
 
 <br >
