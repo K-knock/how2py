@@ -168,7 +168,7 @@ print("Hello World!")
 
 **`List`**
 
-C언어의 배열과 비슷합니다. `list`는 python의 핵심 기능 중 하나라고 해도 과언이 아닐만큼 많이 사용되기 때문에 꼭 숙지하시는 것을 추천드립니다.
+C언어의 배열과 비슷합니다. **`list`는 python의 핵심 기능 중 하나라고 해도 과언이 아닐만큼 많이 사용**되기 때문에 꼭 숙지하시는 것을 추천드립니다.
 
 `[]`로 감싸거나 `list()` 함수를 사용해서 만들 수 있습니다.
 
@@ -226,7 +226,7 @@ print(len(fruit))
 
 <br >
 
-`append()` 함수로 list에 값을 추가할 수 있습니다.
+`append()` 메서드로 list에 값을 추가할 수 있습니다.
 
 ```python
 fruit = ["apple", "banana", "cherry"]
@@ -239,7 +239,7 @@ print(fruit)
 
 <br >
 
-`remove()` 함수로 list 안의 값을 제거할 수 있습니다.
+`remove()` 메서드로 list 안의 값을 제거할 수 있습니다.
 
 ```python
 fruit = ["apple", "banana", "cherry"]
@@ -287,6 +287,50 @@ print(number)
 > [123, 42, 36, 32, 15, 9]
 ```
 
+<br>
+
+`copy()` 메서드로 list를 복사할 수 있습니다.
+
+```python
+number = [1, 2, 3]
+numberCopy = number.copy()
+
+print(numberCopy)
+
+> [1, 2, 3]
+```
+
+Q) 그냥 대입 연산자(=)를 사용하면 안되나요?
+
+대입 연산자와 copy() 메서드는 작동 방식이 다릅니다.
+
+아래 코드를 참고해보세요.
+
+```python
+number = [1, 2, 3]
+
+# 대입
+numberEqual = number
+
+# copy()
+numberCopy = number.copy()
+
+# 원본 list인 number를 수정한다면?
+number.append(4)
+
+print(numberEqual, numberCopy)
+
+> [1, 2, 3, 4] [1, 2, 3]
+```
+
+차이점을 찾으셨나요?
+
+<br >
+
+대입 연산자는 원본 list를 변경하면 **같이 변경**되는 반면
+
+copy() 메서드는 **바뀌지 않습니다**.
+
 **`Tuple`**
 
 ## 딕셔너리
@@ -300,15 +344,3 @@ print(number)
 ## 불
 
 > 파이썬의 불 자료형을 알아보자
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
