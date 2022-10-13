@@ -398,7 +398,7 @@ print(len(fruit))
 
 ### Dictionary
 
-파이썬의 `dictionary`는 `키:값` 형식으로 데이터를 저장합니다. `list`, `tuple`처럼 자료형을 섞어서 사용할 수 있습니다.
+파이썬의 `dictionary`는 `키:값` 형식으로 데이터를 저장합니다.
 
 `{}` 안에 `키:값` 형식으로 저장하며, 각 값은 `,`로 구분합니다.
 
@@ -433,10 +433,25 @@ student = dict("number"=202111445, "name"="Younghun Kwon")
 
 <br >
 
+`key`와 `value`는 둘 다 자료형을 섞어서 사용할 수 있습니다.
+
+`key`의 경우 `list`와 `dictionary`를 사용할 수 없으며, `value`는 모든 자료형을 사용할 수 있습니다.
+
+```python
+information = {10: "ten", True: [1, 2, 3]}
+
+print(information)
+
+> {10: 'ten', True: [1, 2, 3]}
+```
+
+<br >
+
 `dictionary` 내부 값을 가져오기 위해선 `dict_name[key]`를 사용합니다.
 
 ```python
-student = dict("number"=202111445, "name"="Younghun Kwon")
+student = {"number":202111445, "name":"Younghun Kwon"}
+
 
 print(student["number"])
 
@@ -445,7 +460,29 @@ print(student["number"])
 
 <br >
 
-Q) key 이름이 중복되면 어떻게 될까요?
+`dictionary` `key`에 `value`를 할당할 수 있습니다. 만약 `key`가 존재하지 않았다면, 해당 `key`를 추가하고 `value`를 할당합니다.
+
+```python
+student = {"number":202111445, "name":"Younghun Kwon"}
+
+# 존재하는 key에 할당
+student["number"] = 222222222
+
+# 존재하지 않는 key에 할당
+student["height"] = 187
+
+print(student)
+
+> {'number': 222222222, 'name': 'Younghun Kwon', 'height': 187}
+```
+
+<br >
+
+_Q) `key` 이름이 중복되면 어떻게 될까요?_
+
+아래처럼 오류가 발생하게 됩니다.
+
+`dictionary key`는 중복이 안된다는 것!
 
 ```python
 student = dict(number=202111445, number=222222222)
@@ -453,9 +490,26 @@ student = dict(number=202111445, number=222222222)
 > keyword argument repeated: number
 ```
 
-위처럼 오류가 발생하게 됩니다.
+```python
+# 만약 아래 방식을 사용한다면, 오류 대신 마지막 할당 값이 적용됩니다.
+student = {"number":202111445, "number":222222222}
 
-dictionary key는 중복이 안된다는 것!
+print(student["number"])
+
+> 222222222
+```
+
+<br >
+
+`len()` 함수를 사용해 `dictionary`의 길이를 구할 수 있습니다.
+
+```python
+student = dict("number"=202111445, "name"="Younghun Kwon")
+
+print(len(student))
+
+> 2
+```
 
 ## Set Type
 
