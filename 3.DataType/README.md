@@ -252,7 +252,7 @@ print(fruit)
 
 <br >
 
-`sort()` 함수로 list 안의 내용을 정렬할 수 있습니다.
+`sort()` 메소드로 list 안의 내용을 정렬할 수 있습니다.
 
 _syntax_
 
@@ -276,6 +276,15 @@ number.sort()
 print(number)
 
 > [9, 15, 32, 36, 42, 123]
+```
+
+```python
+number = [9, 123, 32, 15, 36, 42]
+number.sort(reverse=True)
+
+print(number)
+
+> [123, 42, 36, 32, 15, 9]
 ```
 
 **`Tuple`**
