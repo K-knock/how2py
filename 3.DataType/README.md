@@ -255,13 +255,13 @@ print(fruit)
 
 `sort()` 메소드로 `list` 안의 내용을 정렬할 수 있습니다.
 
-_syntax_
+**_syntax_**
 
 ```python
 list.sort(key=..., reverse=...)
 ```
 
-_parameter_
+**_parameter_**
 
 | Parameter | Description                                                    | Default |
 | --------- | -------------------------------------------------------------- | ------- |
