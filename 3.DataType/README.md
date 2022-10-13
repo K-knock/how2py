@@ -433,9 +433,9 @@ student = dict("number"=202111445, "name"="Younghun Kwon")
 
 <br >
 
-`key`와 `value`는 둘 다 자료형을 섞어서 사용할 수 있습니다.
+`key`와 `value`는 둘 다 `datatype`을 **혼합**해서 사용할 수 있습니다.
 
-`key`의 경우 `list`와 `dictionary`를 사용할 수 없으며, `value`는 모든 자료형을 사용할 수 있습니다.
+`key`의 경우 `list`와 `dictionary`를 사용할 수 없으며, `value`는 모든 `datatype`을 사용할 수 있습니다.
 
 ```python
 information = {10: "ten", True: [1, 2, 3]}
@@ -460,7 +460,7 @@ print(student["number"])
 
 <br >
 
-`dictionary` `key`에 `value`를 할당할 수 있습니다. 만약 `key`가 존재하지 않았다면, 해당 `key`를 추가하고 `value`를 할당합니다.
+`key`에 `value`를 할당할 수 있습니다. 만약 `key`가 존재하지 않았다면, 해당 `key`를 추가하고 `value`를 할당합니다.
 
 ```python
 student = {"number":202111445, "name":"Younghun Kwon"}
@@ -482,7 +482,7 @@ _Q) `key` 이름이 중복되면 어떻게 될까요?_
 
 아래처럼 오류가 발생하게 됩니다.
 
-`dictionary key`는 중복이 안된다는 것!
+`key`는 중복이 안된다는 것!
 
 ```python
 student = dict(number=202111445, number=222222222)
