@@ -620,10 +620,6 @@ print(number)
 
 [python-set(집합)](https://wikidocs.net/16044)
 
-## Boolean Type
-
-> 파이썬의 불 자료형을 알아보자
-
 ## Binary Type
 
 > 파이썬의 바이너리 타입을 알아보자
