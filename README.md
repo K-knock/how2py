@@ -89,4 +89,4 @@ how2 시리즈의 첫 번째, python!
 
 작성 양식은 `template.md`에 있습니다.
 
-틈틈히 request 확인하겠습니다!
+틈틈히 request 확인하겠습니다!!
