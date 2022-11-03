@@ -272,7 +272,7 @@ c언어와 동일하게 사용 가능합니다.<br>
 ```
 감소도 가능합니다.
 ```python
->>> for i in range(10,0,3):
+>>> for i in range(10,0,-3):
 ... print(i,end=' ')
 ...
 
